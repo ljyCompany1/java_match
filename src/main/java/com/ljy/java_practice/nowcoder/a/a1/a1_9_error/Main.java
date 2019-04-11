@@ -1,4 +1,4 @@
-package com.ljy.java_practice.nowcoder.a.a1.a1_9;
+package com.ljy.java_practice.nowcoder.a.a1.a1_9_error;
 
 
 

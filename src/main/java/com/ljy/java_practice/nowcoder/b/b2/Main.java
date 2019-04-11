@@ -1,9 +1,6 @@
 package com.ljy.java_practice.nowcoder.b.b2;
 
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 /**
  * 1.题目：
