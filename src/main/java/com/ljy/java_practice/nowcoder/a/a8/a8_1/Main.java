@@ -21,7 +21,7 @@ package com.ljy.java_practice.nowcoder.a.a8.a8_1;
  2
  *
  * 2.思路分析
- *
+ *用map集合进行处理
  *
  * 3.运行结果
  *通过
