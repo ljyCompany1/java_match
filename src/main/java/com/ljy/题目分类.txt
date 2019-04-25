@@ -1,0 +1,13 @@
+一、数学常识
+1.约数/最大公约数：
+（1）java_practice.nowcoder.a.a7.a7_5
+（2）java_practice.nowcoder.a.a5.a5_8
+
+二、数据结构
+1.栈
+（1）java_practice.nowcoder.a.a7.a7_6
+2.数组、集合
+（1）java_practice.nowcoder.a.a7.a7_7
+（2）java_practice.nowcoder.a.a7.a7_8
+（3）java_practice.nowcoder.a.a7.a7_9
+（3）java_practice.nowcoder.a.a7.a7_10
