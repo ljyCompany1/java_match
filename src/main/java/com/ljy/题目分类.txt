@@ -1,7 +1,11 @@
 一、数学常识
 1.约数/最大公约数：
-（1）java_practice.nowcoder.a.a7.a7_5
-（2）java_practice.nowcoder.a.a5.a5_8
+（1）java_practice.nowcoder.a.a4.a4_9
+（2）java_practice.nowcoder.a.a7.a7_5
+（3）java_practice.nowcoder.a.a5.a5_8
+2.质数
+（1）java_practice.nowcoder.a.a6.a6_10
+（2）java_practice.nowcoder.a.a8.a8_4
 
 二、数据结构
 1.栈
@@ -10,4 +14,13 @@
 （1）java_practice.nowcoder.a.a7.a7_7
 （2）java_practice.nowcoder.a.a7.a7_8
 （3）java_practice.nowcoder.a.a7.a7_9
-（3）java_practice.nowcoder.a.a7.a7_10
+（4）java_practice.nowcoder.a.a7.a7_10
+（5）List集合和Map集合：java_practice.nowcoder.a.a8.a8_1
+（6）List集合（在给定的数组中删除一个数）：java_practice.nowcoder.a.a8.a8_6
+（7）数组和Map集合（找出一个数组中出现次数最多的那个元素）：java_practice.nowcoder.a.a8.a8_7
+（8）二维数组（给你一个整数n，按要求输出n∗n的回型矩阵-回文）：java_practice.nowcoder.a.a8.a8_8
+3.队列
+（1）循环队列：java_practice.nowcoder.a.a8.a8_5
+4.字符串
+（1）java_practice.nowcoder.a.a8.a8_2
+（2）小写字母出现次数计算：java_practice.nowcoder.a.a8.a8_3

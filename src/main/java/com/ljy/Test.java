@@ -1,13 +1,24 @@
 package com.ljy;
 
-import java.math.BigDecimal;
-
 public class Test {
     public static void main(String[] args) {
-        System.out.println(3*1F/7);
-        System.out.println(8==8.0);
-        double s=3.56344f;
-        BigDecimal b=new BigDecimal(String.valueOf(s));
-        System.out.println(Math.pow(2,4));
+        char c='1';
+        int a=c;
+        System.out.println((int)c);
+        System.out.println(new Integer(31111).compareTo(51));
+        System.out.println(new String("1").compareTo("91"));
+        System.out.println(new String("111").compareTo("161"));
+        /*List<String> list=new ArrayList<String>(){{
+            add("13");
+            add("38");
+            add("387");
+            add("3876");
+        }};
+        Collections.sort(list);
+        StringBuilder stringBuilder=new StringBuilder();
+        for(int i=list.size()-1;i>=0;i--){
+            stringBuilder.append(list.get(i));
+        }
+        System.out.println(stringBuilder.toString());*/
     }
 }

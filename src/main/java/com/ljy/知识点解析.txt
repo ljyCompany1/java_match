@@ -1,0 +1,48 @@
+一、Java知识点
+（一）在控制台的输入输出
+1.控制台输入：一般要掌握两种方法
+1.1 方法一
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+1.2 方法二
+InputStreamReader ir = new InputStreamReader(System.in);
+BufferedReader bf = new BufferedReader(ir);
+String message=bf.readLine();//根据题目输入要求：获取控制台录入的字符串
+
+2.控制台输出：
+1.1 常规输出：System.out.print();
+1.2 输出指定位数的方法：System.out.printf();
+
+
+（二）基础类型
+1.String
+1.1常用类型：String、StringBuilder、StringBuffer
+1.2重点关注：
+1.2.1 如何遍历String字符串
+1.2.2 compareTo方法（重点了解该方法是如何比较字符大小的）
+1.3 常见题目：
+a.将多个正整数联接成一排，组成一个最大的多位整数
+b.大数的计算
+
+2.BigDecimal
+1.1 常见方法：
+setScale（保留小数位数，可以选择进位方法）,
+add(加法),subtract(减法),multiply(乘法),divide(除法),compareTo(比较两个数大小)
+1.2 重点关注：
+对于浮点数，推荐使用BigDecimal BigDecimal(String s)或static BigDecimal valueOf(double d)来避免损失精度
+1.3 常见题目
+指定位数的数值的计算和输出
+
+3.Math函数
+
+
+（三）集合
+1.List集合
+常用知识点：List、ArrayList
+常用来解决的问题：排序
+2.Set集合
+常用知识点：Set、HashSet、LinkedHashSet(有序)
+常见题目：去掉重复数据
+3.Map集合
+常用知识点：Map、HashMap、LinkedHashMap(有序)
+常见题目：统计字符/数字的出现次数
