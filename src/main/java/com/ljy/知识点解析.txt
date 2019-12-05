@@ -13,7 +13,6 @@ String message=bf.readLine();//根据题目输入要求：获取控制台录入�
 1.1 常规输出：System.out.print();
 1.2 输出指定位数的方法：System.out.printf();
 
-
 （二）基础类型
 1.String
 1.1常用类型：String、StringBuilder、StringBuffer
@@ -46,3 +45,8 @@ add(加法),subtract(减法),multiply(乘法),divide(除法),compareTo(比较两
 3.Map集合
 常用知识点：Map、HashMap、LinkedHashMap(有序)
 常见题目：统计字符/数字的出现次数
+
+(四）常见算法
+1.排序
+比较好的文章：https://www.cnblogs.com/guoyaohua/p/8600214.html
+

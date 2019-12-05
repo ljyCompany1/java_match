@@ -31,6 +31,18 @@ public class Sort1_2 {
         }
     }
 
+    public void sortAs1(int[] array) {
+        for(int i=0;i<array.length;i++){
+            for(int j=0;j<array.length-i;j++){
+                if(array[j]>array[j+1]){
+                    int temp=array[j];
+                    array[j]=array[j+1];
+                    array[j+1]=temp;
+                }
+            }
+        }
+    }
+
     /**
      * 降序排序
      * @param array
@@ -58,9 +70,9 @@ public class Sort1_2 {
     public static void main(String[] args) {
         Sort1_2 sort = new Sort1_2();
         int[] array = {3, 62, 1, 17, 9, 13, 32, 55, 67, 17};
-        //sort.sortAsc(array);
-        //sort.print(array);
-        sort.sortDesc(array);
+        sort.sortAsc(array);
+        sort.print(array);
+         sort.sortDesc(array);
         sort.print(array);
     }
 }
