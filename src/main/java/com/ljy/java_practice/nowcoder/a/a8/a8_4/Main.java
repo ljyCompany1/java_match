@@ -33,29 +33,35 @@ package com.ljy.java_practice.nowcoder.a.a8.a8_4;
  */
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.Scanner;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
+    private static Set<Integer> data=new HashSet<Integer>();
+
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         while(sc.hasNextInt()){
             int t = sc.nextInt();//获取要询问的个数
-            if (t >= 1 && t <= Math.pow(10, 8)) {
-                int[] array = new int[t];
-                for (int i = 0; i < t; i++) {//赋值
-                    array[i] = sc.nextInt();
-                }
-                for (int n : array) {
-                    if (n >= 1 && n <= 1000000) {
-                        int count=0;//小于等于n的的质数的个数
-                        for(int i=2;i<=n;i++){
-                            if(isPrime(i)){
-                                count++;
-                            }
+            int[] array = new int[t];
+            for (int i = 0; i < t; i++) {//赋值
+                array[i] = sc.nextInt();
+            }
+            for (int n : array) {
+                int count=0;//小于等于n的的质数的个数
+                for(int i=1;i<=n;i++){
+                    if(data.contains(i)){
+                        count++;
+                    }else{
+                        if(isPrime(i)){
+                            count++;
+                            data.add(i);
                         }
-                        System.out.println(count);
                     }
                 }
+                System.out.println(count);
             }
         }
     }

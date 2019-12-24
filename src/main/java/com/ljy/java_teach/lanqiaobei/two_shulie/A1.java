@@ -1,6 +1,14 @@
 package com.ljy.java_teach.lanqiaobei.two_shulie;
 
 /**
+ * ljy自制培训题-过渡
+ * 更基础的题目可以看本项目的
+ * com.ljy.java_practice.nowcoder.a.a4.a4_1
+ *  com.ljy.java_practice.nowcoder.a.a4.a4_2
+ *  ……
+ *  com.ljy.java_practice.nowcoder.a.a4.a4_6
+ *  com.ljy.java_practice.nowcoder.a.a7.a7_1
+ *
  * 1.题目：有一对兔子，从出生后第3个月起每个月都生一对兔子，小兔子长到第三个月后每个月又生一对兔子
  * 假如兔子都不死，问第N个月的兔子总数为多少？
  *2.分析：

@@ -20,28 +20,21 @@ package com.ljy.java_practice.nowcoder.a.a4.a4_1;
  *
  */
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        InputStreamReader ir = new InputStreamReader(System.in);
-        BufferedReader bf = new BufferedReader(ir);
-        String message=bf.readLine();//根据题目输入要求：获取控制台输入的数字
-        try {
-            int n=Integer.parseInt(message);
-            int sum=0;//默认的总和
-            for(int i=1;i<=n;i++){
-                if(i%2==1){
-                    sum+=i;
-                }else{
-                    sum-=i;
-                }
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();//可以用字符串：0100110001010001测试，答案是100
+        int sum=0;//默认的总和
+        for(int i=1;i<=n;i++){
+            if(i%2==1){
+                sum+=i;
+            }else{
+                sum-=i;
             }
-            System.out.println(sum);
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
         }
+        System.out.println(sum);
     }
 }
